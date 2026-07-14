@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Launch Project</title>
+    <meta http-equiv="refresh" content="0;url=http://localhost:5173" />
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: #f8fafc;
+            font-family: 'Inter', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        }
+
+        .launcher-container {
+            text-align: center;
+            background: white;
+            padding: 3rem 4rem;
+            border-radius: 20px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #1e293b;
+            margin-bottom: 1rem;
+            font-weight: 600;
+        }
+        
+        p {
+            color: #475569;
+        }
+        
+        a {
+            color: #3b82f6;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="launcher-container">
+        <h1>Redirecting to your Project...</h1>
+        <p>If you are not redirected automatically, <a href="http://localhost:5173">click here</a>.</p>
+        
+        <script>
+            window.location.href = "http://localhost:5173";
+        </script>
+    </div>
+</body>
+</html>

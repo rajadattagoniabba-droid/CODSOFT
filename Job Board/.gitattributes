@@ -1,0 +1,7 @@
+# Ignore package-lock files from language statistics and hide in diffs by default
+package-lock.json linguist-generated
+frontend/package-lock.json linguist-generated
+backend/package-lock.json linguist-generated
+
+# Mark build output directories as generated
+frontend/dist/** linguist-generated
